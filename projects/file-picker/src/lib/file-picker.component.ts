@@ -385,7 +385,7 @@ export class FilePickerComponent implements OnInit, OnDestroy {
   onCropSubmit(): void {
     this.cropper
       .getCroppedCanvas(this.croppedCanvasOptions)
-      .toBlob(this._blobFallBack.bind(this), 'image/png');
+      .toBlob(this._blobFallBack.bind(this), 'image/jpeg');
   }
   /** After crop submit */
   private _blobFallBack(blob: Blob): void {
