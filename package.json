@@ -1,5 +1,5 @@
 {
-  "name": "ngx-awesome-uploader-repo",
+  "name": "@prubiog/ngx-awesome-uploader",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^11.2.14",
     "@angular/common": "^11.2.14",
