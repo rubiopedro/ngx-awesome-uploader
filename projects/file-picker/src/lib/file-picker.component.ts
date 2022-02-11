@@ -310,7 +310,10 @@ export class FilePickerComponent implements OnInit, OnDestroy {
     this.changeRef.detectChanges();
   }
 
+<<<<<<< HEAD
   /** @description Set files for uploader */
+=======
+>>>>>>> spike/upgrade-to-angular-11
   public setFiles(files: FilePreviewModel[]): void {
     this.files = files;
     this.changeRef.detectChanges();
@@ -401,8 +404,8 @@ export class FilePickerComponent implements OnInit, OnDestroy {
   onCropSubmit(): void {
     this.isCroppingBusy = true;
     this.cropper
-    .getCroppedCanvas(this.croppedCanvasOptions)
-    .toBlob(this._blobFallBack.bind(this), 'image/png');
+      .getCroppedCanvas(this.croppedCanvasOptions)
+      .toBlob(this._blobFallBack.bind(this), 'image/jpeg');
   }
 
   /** After crop submit */
