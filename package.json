@@ -23,15 +23,6 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@angular-devkit/build-angular": "~13.0.2",
-    "@angular/cli": "~13.0.2",
-    "@angular/compiler-cli": "~13.0.0",
-    "@types/jasmine": "~3.10.0",
-    "@types/node": "^12.11.1",
-    "jasmine-core": "~3.10.0",
-    "karma": "~6.3.0",
-=======
     "@angular-devkit/build-angular": "~0.1102.13",
     "@angular-devkit/build-ng-packagr": "~0.1002.0",
     "@angular/cli": "^11.2.13",
@@ -44,21 +35,14 @@
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.3.2",
->>>>>>> spike/upgrade-to-angular-11
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
-<<<<<<< HEAD
-    "karma-jasmine-html-reporter": "~1.7.0",
-    "ng-packagr": "^13.0.0",
-    "typescript": "~4.4.4"
-=======
     "karma-jasmine-html-reporter": "^1.5.0",
     "ng-packagr": "^11.2.4",
     "protractor": "~7.0.0",
     "ts-node": "~7.0.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.5"
->>>>>>> spike/upgrade-to-angular-11
   }
 }

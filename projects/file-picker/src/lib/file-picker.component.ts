@@ -310,10 +310,6 @@ export class FilePickerComponent implements OnInit, OnDestroy {
     this.changeRef.detectChanges();
   }
 
-<<<<<<< HEAD
-  /** @description Set files for uploader */
-=======
->>>>>>> spike/upgrade-to-angular-11
   public setFiles(files: FilePreviewModel[]): void {
     this.files = files;
     this.changeRef.detectChanges();
